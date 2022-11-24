@@ -41,6 +41,16 @@ h1 {
   max-width: 15ch;
 }
 
+h2 {
+  color: var(--color-very-dark-violet);
+  font-size: 3rem;
+}
+
+h3 {
+  color: var(--color-very-dark-violet);
+  font-size: 1.5rem;
+}
+
 p {
   max-width: 45ch;
   line-height: 1.6;
@@ -180,6 +190,35 @@ nav {
   display: none;
 }
 
+section.info {
+  margin-top: 12rem;
+}
+
+.info .divider {
+  border-color: var(--color-dark-gray-violet);
+}
+
+.info h2 {
+  margin-top: 4rem;
+}
+
+.info__article-group {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.info article h3 {
+  margin-top: 2rem;
+}
+
+.info article p {
+  margin-top: 1rem;
+}
+
+
 
 
 /* Medium screen breakpoint */
@@ -243,6 +282,19 @@ nav {
     width: 30%;
     height: 90%;
     z-index: 1;
+  }
+
+  section.info {
+    text-align: center;
+  }
+
+  .info .divider {
+    margin: 0 auto;
+  }
+
+  .info__article-group {
+    flex-direction: column;
+    gap: 5rem;
   }
 }
 
