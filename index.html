@@ -29,7 +29,7 @@
         <a href="#" class="nav-links__link">Account</a>
         <a href="#" class="btn btn-dark">View Plans</a>
       </div>
-      <div class="md-shown hamburger-menu">
+      <div class="md-shown hamburger-menu" id="menu-btn">
         <img src="./images/icon-hamburger.svg" alt="Open menu" />
       </div>
     </nav>
@@ -160,5 +160,27 @@
         </div>
       </div>
     </footer>
+    <!-- Mobile nav menu -->
+    <div class="mobile-menu hidden" id="mobile-menu">
+      <div class="relative">
+        <div class="mobile-menu__navbar">
+          <nav class="container">
+            <a href="#" class="logo">
+              <img src="./images/logo.svg" alt="Insure brand logo" />
+            </a>
+            <div class="close-btn" id="close-btn">
+              <img src="./images/icon-close.svg" alt="Close menu" />
+            </div>
+          </nav>
+        </div>
+      </div>
+      <ul class="mobile-menu__links">
+        <li><a href="#">How we work</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Account</a></li>
+        <li><a href="#" class="btn btn-light">View plans</a></li>
+      </ul>
+      <div class="mobile-menu__pattern-b"></div>
+    </div>
   </body>
 </html>
