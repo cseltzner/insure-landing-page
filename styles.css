@@ -402,17 +402,17 @@ section.banner {
 
   .mobile-grid {
     display: grid;
-    grid-template-rows: 100% 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 
   .header__mobile-img {
     display: block;
     width: 100%;
+    margin-bottom: -2rem;
   }
 
   .header__mobile-img img {
     width: 100%;
-    height: 100%;
   }
 
   .header-grid__pattern-r {
